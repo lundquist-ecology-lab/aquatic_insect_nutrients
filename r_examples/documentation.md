@@ -1,4 +1,5 @@
 [biomass.r](https://github.com/lundquist-ecology-lab/aquatic_insect_nutrients/blob/main/r_examples/biomass.r)
+
 This code reads in a `CSV` file containing data on biomass and individual count for different stream `sites`, `months`, and `years`. The data is grouped by `functional group`, `type`, `stream`, `month`, and `year`. The code calculates the average biomass per individual for each stream site and month and stores the resulting data in a new data frame called "predator". The code also removes any rows with NA values.
 
 To use this code, the user must specify the path to the CSV file containing the data. The user must also make sure that the column names in the CSV file match the column names used in the code. The user can then call the data frame "predator" to access the calculated data.

@@ -1,5 +1,5 @@
 ## Example of using a decision tree to identify stream type based on
-## predator biomass using decision trees. 
+## predator biomass using decision trees.
 ## (Spoilers, it is not a great predictor)
 
 library(rpart)
@@ -9,7 +9,7 @@ library(caTools)
 source("biomass.r")
 set.seed(4932)
 
-predator <- predator[c(-3, -5)]
+predator <- predator[c(-2, -3, -5)]
 
 # Split into test and train datasets
 split <- sample.split(predator$type, SplitRatio = 0.75)

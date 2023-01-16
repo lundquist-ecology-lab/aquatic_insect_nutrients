@@ -1,5 +1,5 @@
 # Read in data
-data <- read.csv("data/biomass_data.csv", header = TRUE,
+data <- read.csv("../data/biomass_data.csv", header = TRUE,
                 stringsAsFactors = TRUE, na.strings = " ")
 
 
